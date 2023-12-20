@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    color: black;
+}
+.details{
+    font-size: 12px;
+    
+}
+nav{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.details:hover{
+    cursor: pointer;
+   
+}
+
+
+
+.main{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.phlogo img{
+    width: 120px;
+    height: auto;
+}
+.main input{
+    width: 300px;
+    height: 36px;
+    border-radius: 1px solid black; 
+    text-align: left;
+    
+}
+.main nav{
+    gap: 12px;
+    align-self: center;
+    justify-content: center;
+    
+    font-size: 14px; 
+    
+}
+.track p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+    
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgb(235, 235, 214);
+}
+
+
+/* Set styles for the navigation menu */
+.glass{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    background-color: #fff;
+    height: 48px;
+    padding: 10px;
+    background-color: rgb(235, 235, 214);
+}
+    
+.glass p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 12px;
+    cursor: pointer;
+}
+.glass h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* Set styles for the images */
+.gold{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding-right: -20px;
+}
+.gold img{
+    height: 30px;
+    margin: 0 8px;
+    border-radius: 4px;
+    float: right;
+}
+
+
+
+
+.lens1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px;
+    color: gray;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);;
+}
+.gimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 16%;
+    text-align: center;
+    
+}
+.banner1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.lens2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: none;
+
+}
+.lens2 h1{
+    float: left;
+    font-size: 40px;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 18%;
+}
+.collection button{
+    background-color: rgb(81, 230, 230);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    
+}
+.banner2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    
+}
+.banner2 h1{
+    font-size: 40px;
+}
+.banner3 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    
+}
+.banner3 h1{
+    font-size: 40px;
+    
+}
+.img h4{
+    font-size: 40px;
+    
+    
+}
+.image-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-container img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.img4 h1{
+    font-size: 40px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}  
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+
+}
+
+.brief{
+    display: flexbox;
+    flex: none;
+    background-color: #191970;
+    color: white;
+    text-align: left;
+    
+}
+.brief h1{
+    margin-left: 30px;
+}
+.brief p{
+    margin-left: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #191970;
+}
+.footer .list ul{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+.list .im img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+    
+}
+.list
+
+
+
